@@ -338,8 +338,8 @@
 /* ============ AI Make section strat ==================== */
 
 
-/* ====================== FAQ SECTION ======================
-* {
+ /* ====================== FAQ SECTION ====================== */
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -351,14 +351,14 @@ body {
     color: #0F172A;
     line-height: 1.6;
     padding: 80px 20px;
-}
+} */
 
 .faq-section {
     max-width: 900px;
     margin: 0 auto;
 }
 
-/* Header *
+/* Header */
 .faq-header {
     text-align: center;
     margin-bottom: 48px;
@@ -379,14 +379,14 @@ body {
     margin: 0 auto;
 }
 
-/* FAQ Grid *
+/* FAQ Grid */
 .faq-grid {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-/* FAQ Card *
+/* FAQ Card */
 .faq-card {
     background: white;
     border-radius: 16px;
@@ -401,7 +401,7 @@ body {
     transform: translateY(-3px);
 }
 
-/* Question Row *
+/* Question Row */
 .faq-question {
     display: flex;
     justify-content: space-between;
@@ -425,7 +425,7 @@ body {
     transition: transform 0.3s ease;
 }
 
-/* Answer *
+/* Answer */
 .faq-answer {
     padding: 0 28px 28px 28px;
     color: #334155;
@@ -433,7 +433,7 @@ body {
     border-top: 1px solid #F1F5F9;
 }
 
-/* Support Note *
+/* Support Note */
 .support-note {
     text-align: center;
     margin-top: 48px;
@@ -451,7 +451,7 @@ body {
     text-decoration: underline;
 }
 
-/* ====================== RESPONSIVE ====================== *
+/* ====================== RESPONSIVE ====================== */
 @media (max-width: 768px) {
     body {
         padding: 60px 16px;
@@ -474,7 +474,7 @@ body {
     .faq-title {
         font-size: 1.9rem;
     }
-} */
+} 
 
 /* ============ AI Make section End ==================== */
 
