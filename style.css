@@ -64,7 +64,8 @@
 
     /* ========== Hero section stert========= */
     header {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('./images/banner.png');
+        background-image: linear-gradient(to top right, #000000 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.3) 70%, transparent 100%),
+            url('./images/banner.png');
 
         background-repeat: no-repeat;
         background-position: center;
@@ -338,7 +339,7 @@
 /* ============ AI Make section strat ==================== */
 
 
- /* ====================== FAQ SECTION ====================== */
+/* ====================== FAQ SECTION ====================== */
 /* * {
     margin: 0;
     padding: 0;
@@ -474,7 +475,7 @@ body {
     .faq-title {
         font-size: 1.9rem;
     }
-} 
+}
 
 /* ============ AI Make section End ==================== */
 
@@ -538,4 +539,5 @@ body {
 .legal-links-Right a:hover {
     color: #38BDF8;
 }
+
 /* ============ Footer section End ==================== */
