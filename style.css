@@ -36,23 +36,25 @@
         justify-content: space-between;
         gap: 24px;
         list-style: none;
-        
-        
+
+
 
 
     }
-    .nav-parent ul li{
+
+    .nav-parent ul li {
         color: #575757;
 
     }
 
-    .nav-parent ul li a{
+    .nav-parent ul li a {
         text-decoration: none;
     }
+
     .nav-parent ul li a:hover {
-            color: blue;
-     }
-    
+        color: blue;
+    }
+
 
 
     .nav-btn {
@@ -313,9 +315,7 @@
     cursor: pointer;
 
 }
-.spot-btn-1:hover{
-    color: #2b58b3;
-}
+
 
 .spot-btn-2 {
     border: 2px solid #2563EB;
