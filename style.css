@@ -21,7 +21,7 @@
         justify-content: space-between;
         align-items: center;
         background-color: #FFFFFF;
-        padding: 30px 60px;
+        padding: 30px 8%;
     }
 
     .nav-parent div img {
@@ -36,9 +36,24 @@
         justify-content: space-between;
         gap: 24px;
         list-style: none;
-        cursor: pointer;
-        color: #575757;
+        
+        
+
+
     }
+    .nav-parent ul li{
+        color: #575757;
+
+    }
+
+    .nav-parent ul li a{
+        text-decoration: none;
+    }
+    .nav-parent ul li a:hover {
+            color: blue;
+     }
+    
+
 
     .nav-btn {
         display: flex;
@@ -144,8 +159,8 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 30px;
-        margin: 5% 0;
-        padding: 0;
+        margin: 40px 0;
+        padding: 0 1%;
     }
 
     .meet-container h2 {
@@ -206,7 +221,7 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
         margin: 5% 0;
-        padding: 0;
+        padding: 0 1%;
 
     }
 
@@ -298,6 +313,9 @@
     cursor: pointer;
 
 }
+.spot-btn-1:hover{
+    color: #2b58b3;
+}
 
 .spot-btn-2 {
     border: 2px solid #2563EB;
@@ -306,6 +324,8 @@
     cursor: pointer;
 
 }
+
+
 
 .spot-btn-3 {
     cursor: pointer;
@@ -482,61 +502,55 @@ body {
 
 /* ============ Footer section strat ==================== */
 
-.nav-footer {
+.nav-parent-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background-color: #0D1B2A;
     color: #ffffff;
-
     padding: 40px 8%;
 
 }
 
 
-.footer-left {
-    text-align: left;
-}
-
 .footer-left p {
     margin-top: 10px;
     font-size: 14px;
-    color: #A0AEC0;
+    color: #FFFFFF;
 
 }
 
 
-.footer-logo {
+.footer-parent-right {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 15px;
 }
 
-.social-links-right {
+.icone-right {
     display: flex;
     gap: 15px;
 }
 
-.social-links-right img {
+.icone-right img {
     width: 24px;
     height: 24px;
 }
 
 
-.legal-links-Right {
+.text-Right {
     display: flex;
     gap: 20px;
 }
 
-.legal-links-Right a {
+.text-Right a {
     color: #FFFFFF;
     text-decoration: none;
 
 }
 
-.legal-links-Right a:hover {
+.text-Right a:hover {
     color: #38BDF8;
 }
 
